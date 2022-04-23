@@ -5,9 +5,13 @@ from countries import links, countries
 
 #loop through big list
     #create a folder
+for country in countries:
+    os.mkdir(rf'D:\travelling channel\{country}')
 #loop the nested list
     # download video
-    video_link = video_link.replace("external","video")
-    video_link = video_link.split(".sd", 1)[0] 
+for lst in links:
+    for link in lst:
+        link = link.replace("external","video")
+        link = link.split(".sd", 1)[0] 
     #store it
     
