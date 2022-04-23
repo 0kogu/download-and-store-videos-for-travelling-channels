@@ -1,6 +1,6 @@
 countries = ['Greece',-
 'Russia',-
-'Portugal',
+'Portugal',-
 'Japan',
 'Indonesia',
 'South Africa',
