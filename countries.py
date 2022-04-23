@@ -1,5 +1,4 @@
-countries = [
-'Greece',
+countries = ['Greece',
 'Netherlands',
 'Russia',
 'Macao',
